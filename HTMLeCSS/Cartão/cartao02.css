@@ -19,13 +19,24 @@ body{
     box-shadow: 1px 1px 2px white;
 }
 
-.cartao p{
+.cartao  p{
     color: white;
     text-align: center;
-    transform: translate(0%, 400%);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 50px;
+    transform: translate(0%, 80%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-shadow: 1px 1px 5px black;
 }
+
+    .cartao:hover{
+        width: 250px ;
+        height: 300px ;
+        transition: .3s;
+        box-shadow: 2px 2px 7px white;
+    }
+    .cartao:hover p{
+        transform: translate(0%, 110%);
+        transition: .5s;
+    }
