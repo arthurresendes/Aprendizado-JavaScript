@@ -42,13 +42,15 @@ button{
     height: 50px;
     font-size: 25px;
     cursor: pointer;
-    background-color: rgba(31, 31, 31);
+    background-color: rgba(31, 31, 31, 0.515);
     color: rgba(255, 255, 255, 0.855);
     margin: 3px;
 }
 
 .botao:hover{
-    background-color: rgba(0, 0, 0, 0.54);
+    
+    background-image:linear-gradient(90deg , rgba(0, 0, 255, 0.126) , rgba(62, 0, 128, 0.159));
+    transition: .5s ;
 }
 
 #nmr{
@@ -56,7 +58,7 @@ button{
 }
 #nmr:hover{
     box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.288);
-    transition: .2s;
+    transition: .3s;
 }
 
 #resultado{
