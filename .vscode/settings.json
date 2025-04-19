@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Aprendizado-JS"
+    "liveServer.settings.multiRootWorkspaceName": "Aprendizado-JS",
+    "files.associations": {
+        "main.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
