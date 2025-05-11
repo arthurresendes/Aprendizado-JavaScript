@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Impar</title>
+</head>
+
+<body>
+    <input type="number" name="numero" id="numero"> <br>
+    <input type="submit" value="Verificar" onclick="Calcular ()">
+    <div class="text"></div>
+</body>
+
+<script>
+    function Calcular() {
+        let numero = parseInt(document.getElementById("numero").value);
+        if (numero % 2 == 0) {
+            document.querySelector('.text').innerHTML = 'Seu numero é par'
+        } else document.querySelector('.text').innerHTML = 'Seu numero é impar'
+    }
+</script>
+
+</html>
